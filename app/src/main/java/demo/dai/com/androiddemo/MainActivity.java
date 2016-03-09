@@ -8,7 +8,7 @@ import android.os.Bundle;
 import demo.dai.com.androiddemo.frament.FirstFrament;
 
 /**
- * Created by Administrator on 2016/3/8.
+ * Created by 代金戈 on 2016/3/8.
  */
 public class MainActivity extends Activity{
 
