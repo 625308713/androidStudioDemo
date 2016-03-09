@@ -24,7 +24,7 @@ public class MainActivity extends Activity{
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         FirstFrament firstFrament = new FirstFrament();
         fragmentTransaction.add(R.id.main,firstFrament);
-        Log.i("dai","CCCC");
+        Log.i("dai","DDDDD");
         fragmentTransaction.commit();
     }
 }
