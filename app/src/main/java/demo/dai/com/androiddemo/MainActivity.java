@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.util.Log;
 
 import demo.dai.com.androiddemo.frament.FirstFrament;
 
@@ -23,6 +24,7 @@ public class MainActivity extends Activity{
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         FirstFrament firstFrament = new FirstFrament();
         fragmentTransaction.add(R.id.main,firstFrament);
+        Log.i("dai","AAAAA");
         fragmentTransaction.commit();
     }
 }
